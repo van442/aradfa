@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  html{
+    font-family:Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+
+  }
+}
+@layer components{
+  .divAll{
+  @apply  w-40 h-40 bg-opacity-40 bg-black
+  }
+  .FontStyleSupport_P{
+  @apply text-sm text-[#676767] mt-4
+  }
+  .FontStyleSupport_h3{
+  @apply text-sm leading-4 font-medium
+  }
+  
+  
+  
+   
+}
+
+#scrollbar-widthSelect::-webkit-scrollbar {
+  display: none;
+}
+#test::after{
+content:url("./svg/heart_item.svg");
+width:1rem;
+height:1rem;
+opacity:0.65;
+position:absolute;
+zoom:0.8;
+transform: translateX(-65%);
+
+}
+
